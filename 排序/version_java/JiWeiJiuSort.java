@@ -3,7 +3,8 @@ package 排序.version_java;
 import java.util.Arrays;
 
 public class JiWeiJiuSort {
-    public static void JiWeiJiuSort(int[] array) {
+    
+    public static void cockTailSort(int[] array) {
         for (int i = 0; i < array.length / 2; i++) {
             // 有序标记，每一轮的初始是true
             boolean isStored = true;
@@ -35,7 +36,7 @@ public class JiWeiJiuSort {
 
     public static void main(String[] aStrings) {
         int[] arr = new int[] {54, 26, 44, 17, 77, 26, 31, 93, 55};
-        JiWeiJiuSort(arr);
+        cockTailSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
