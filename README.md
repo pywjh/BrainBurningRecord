@@ -4,7 +4,7 @@
 
 |   排序算法   |   时间复杂度   |   空间复杂度   |   是否稳定排序  |   python代码   |   java代码   |
 | :----: | :----: | :----: | :----: | :----: |   :----:   |
-|   冒泡排序   |   O(n^2)   |   O(1)   |  稳定   |      |      |
+|   冒泡排序   |   O(n^2)   |   O(1)   |  稳定   |   [冒泡排序python](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/version_python/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F.py)   |   [冒泡排序java](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/version_java/MaoPaoSort.java)   |
 |   鸡尾酒排序   |   O(n^2)   |   O(1)   |  稳定   |   [鸡尾酒排序python](https://www.cnblogs.com/pywjh/p/15015164.html)   |   [鸡尾酒排序java](https://www.cnblogs.com/pywjh/p/15016716.html)   |
 |   选择排序   |   O(n^2)   |   O(1)   |  不稳定   |   [选择排序python](https://www.cnblogs.com/pywjh/p/14916959.html)   |   [选择排序java](https://www.cnblogs.com/pywjh/p/15014429.html)   |
 |   插入排序   |   O(n^2)   |   O(1)   |  稳定   |      |      |
