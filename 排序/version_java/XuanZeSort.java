@@ -2,7 +2,7 @@ package 排序.version_java;
 
 import java.util.Arrays;
 
-public class SuanZeSort {
+public class XuanZeSort {
     public static void main(String[] args) {
         int[] arr={1,3,2,45,65,33,12};
         //选择排序的优化
