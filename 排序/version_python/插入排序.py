@@ -39,11 +39,10 @@ def main(array):
         # for j in range(i, 0, -1):
             # if array[j] < array[j-1]:
             #     array[j], array[j-1] = array[j-1], array[j]
-        j = i
-        while j > 0 and insert_value < array[j-1]:
-            array[j] = array[j-1]
-            j -= 1
-        array[j] = insert_value
+        while i > 0 and insert_value < array[i-1]:
+            array[i] = array[i-1]
+            i -= 1
+        array[i] = insert_value
 
     return array
 

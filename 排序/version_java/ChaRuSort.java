@@ -8,12 +8,8 @@ public class ChaRuSort {
             int insertValue = array[i];
             int j = i - 1;
             //从右向左比较元素的同时，进行元素复制
-            for ( ; j >= 0 ; j--) {
-                if (insertValue < array[j]) {
-                    array[j + 1] = array[j];
-                } else {
-                    break;
-                }
+            for (; (j >= 0) && (insertValue < array[j]); j--) {
+                array[j + 1] = array[j];
             }
             //insertValue的值插入适当位置
             array[j + 1] = insertValue;
