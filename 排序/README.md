@@ -6,8 +6,8 @@
 |   插入排序   |   O(n^2)   |   O(1)   |  稳定   |   [插入排序python](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/%E6%8E%92%E5%BA%8F/version_python/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.py)   |   [插入排序java](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/%E6%8E%92%E5%BA%8F/version_java/ChaRuSort.java)   |
 |   希尔排序   |   Sedgewick增量：O(n^4/3)   |   O(1)   |  不稳定   |   [希尔排序python](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/%E6%8E%92%E5%BA%8F/version_python/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F.py)   |   [希尔排序java](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/%E6%8E%92%E5%BA%8F/version_java/XiErSort.java)   |
 |   快速排序   |   平均：O(nlog2n)  最坏：O(n^2)   |   O(nlog2n)   |   不稳定   |   [快速排序python](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/%E6%8E%92%E5%BA%8F/version_python/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F.py)   |   [快速排序java](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/%E6%8E%92%E5%BA%8F/version_java/KuaiSuSort.java)   |
-|   堆排序   |   O(nlog2n)   |   O(1)   |  不稳定   |      |      |
-|   归并排序   |   O(nlog2n)   |   O(n)   |   稳定   |      |      |
+|   [堆排序](堆排序.md)   |   O(nlog2n)   |   O(1)   |  不稳定   |   [堆排序python](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/%E6%8E%92%E5%BA%8F/version_python/%E5%A0%86%E6%8E%92%E5%BA%8F.py)   |   [堆排序java](https://gitee.com/wjhzy/BrainBurningRecord/blob/main/%E6%8E%92%E5%BA%8F/version_java/DuiSort.java)   |
+|   [归并排序](归并排序.md)   |   O(nlog2n)   |   O(n)   |   稳定   |      |      |
 |   计数排序   |   O(n+m)   |   O(n)   |   稳定   |      |      |
 |   桶排序   |   O(n)   |   O(n)   |   稳定   |      |      |
 |   基数排序   |   O(k(n+m))   |   O(n+m)   |   稳定   |      |      |
