@@ -7,7 +7,15 @@ import java.util.LinkedList;
 
 public class TongSort {
     public static double[] bucketSort(double[] array){
-
+        /**
+         * 桶排序
+            4.12, 6.421, 0.0023, 3.0, 2.123, 8.122, 4.12, 10.09
+            创建len个桶
+            (max - min) / len 为区间范围
+            [[0.0023], [2.123], [3.0, 4.12, 4.12], [], [6.421], [8.122], [], [10.09]]
+            再以此输出
+            0.0023, 2.123, 3.0, 4.12, 4.12, 6.421, 8.122, 10.09
+         */
         //1.得到数列的最大值和最小值，并算出差值d
         double max = array[0];
         double min = array[0];
