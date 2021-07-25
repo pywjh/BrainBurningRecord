@@ -1,11 +1,7 @@
 def get_char_index(string, k):
     """获取字符串第k位字符所对应的ascii码序号"""
     # 如果字符串长度小于k，直接返回0，相当于给不存在的位置补0
-    try:
-        return ord(string[k])
-    except IndexError:
-        return 0
-    # return ord(string[k]) if len(string)-1 >= k else 0
+    return ord(string[k]) if len(string) > (k + 1) else 0
 
 def radix_sort(array, max_len):
     """
